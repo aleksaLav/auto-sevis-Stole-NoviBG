@@ -17,7 +17,7 @@
 .slider1{
     position: relative;
     height: 600px;
-    /*ovde stoji backgroun-img:url("");*/
+    background-image:url("../img/sl1.png");
     background-size: cover;
     background-attachment: fixed;
 }

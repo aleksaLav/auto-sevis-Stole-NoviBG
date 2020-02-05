@@ -23,7 +23,7 @@ ispisLinkova();
 ];
     var i=0;
     function promenaSlike(){
-        $(".slider1").css("background-image",`url(${nizSlika[i][0]}`);
+        //$(".slider1").css("background-image",`url(${nizSlika[i][0]}`);
         $(".providno").html(`<h2>${nizSlika[i][1]}</h2><p>${nizSlika[i][2]}</p>`);
         if(i<nizSlika.length-1){
           i++;
