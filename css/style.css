@@ -14,12 +14,15 @@
 .fa-bars {
   color: white;
 }
-.slider1{
+/* .slider1{
     position: relative;
     height: 600px;
     background-image:url("../img/sl1.png");
     background-size: cover;
     background-attachment: fixed;
+} */
+.slider1{
+    position: relative; 
 }
 .providno{
     background-color: rgba(0, 0, 0, 0.4);
@@ -42,11 +45,13 @@
 }
 .z3{
     z-index: 1;
-    
+    height: 100px;
 }
 #SlikaKontakt{
-    background-image: url("../img/ct1.jpg"); /*slika4.png*/
-    background-size: cover;
+        width: 100%;
+        background: url("../img/ct1.jpg")no-repeat center;
+        background-size: cover;
+  
 }
 
 /*kontakt */ 
@@ -61,7 +66,7 @@
 }
 #SlikaKontakt h2{
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     padding-top: 50px;
     color:white;
 }
@@ -222,17 +227,38 @@
     .providno{
         width: 70% !important;
     }
-    .slider1{
-        height: 500px !important;
+    h2{
+        font-size: 1.3rem;
     }
+    p{
+        font-size: 0.9rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    /* .slider1{
+        height: 500px !important;
+    } */
 }
 @media screen and (max-width:640px){
     .providno{
         width: 90% !important;
     }
-    .slider1{
-        height: 400px !important;
+    h2{
+        font-size: 1rem;
     }
+    p{
+        font-size: 0.8rem;
+    }
+    h1{
+        font-size: 1.2rem;
+    }
+    .z3{
+        height: 70px;
+    }
+    /* .slider1{
+        height: 400px !important;
+    } */
 }
 .dodaj{
     display: block;
