@@ -14,13 +14,7 @@
 .fa-bars {
   color: white;
 }
-/* .slider1{
-    position: relative;
-    height: 600px;
-    background-image:url("../img/sl1.png");
-    background-size: cover;
-    background-attachment: fixed;
-} */
+
 .slider1{
     position: relative; 
 }
@@ -202,7 +196,7 @@
 }
 #ekspander li{
 	cursor: pointer;
-	/*background:url(ekspander_bg.png) repeat-x;*/
+	
 	font-weight:bold;
     color:white;
 	margin-bottom:2px;
@@ -236,9 +230,7 @@
     h1{
         font-size: 1.5rem;
     }
-    /* .slider1{
-        height: 500px !important;
-    } */
+
 }
 @media screen and (max-width:640px){
     .providno{
@@ -256,9 +248,7 @@
     .z3{
         height: 70px;
     }
-    /* .slider1{
-        height: 400px !important;
-    } */
+    
 }
 .dodaj{
     display: block;
