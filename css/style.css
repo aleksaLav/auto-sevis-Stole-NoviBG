@@ -250,6 +250,16 @@
     }
     
 }
+@media screen and (max-width:500px){
+    .providno p{
+       display: none;
+    }
+    nav{
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    
+}
+
 .dodaj{
     display: block;
     font-size: 14px;

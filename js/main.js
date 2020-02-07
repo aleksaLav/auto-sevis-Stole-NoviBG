@@ -2,6 +2,7 @@ $( document ).ready(function() {
     $(window).scroll(function(){ 
     $('nav').toggleClass('scrolled', $(this).scrollTop() >250); 
     });
+  
     var nizNavigacija = [
       ['#Onama','O NAMA'],
       ['#usluge','USLUGE'],
